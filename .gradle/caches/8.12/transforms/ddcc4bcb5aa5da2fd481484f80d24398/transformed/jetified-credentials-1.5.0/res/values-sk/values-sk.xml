@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL" msgid="8397015543330865059">"Heslo"</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL" msgid="3929015085059320822">"Prístupový kľúč"</string>
+</resources>
