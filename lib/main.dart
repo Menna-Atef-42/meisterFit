@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:fluttercourse/home/home_screen.dart';
+import 'package:fluttercourse/utils/appScreens.dart';
 
 void main() => runApp(const MyApp());
 
@@ -8,9 +10,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false, home: Scaffold(
-      appBar: AppBar(title: Text("App Bar"),),
+        debugShowCheckedModeBanner: false,
 
-    ));
+        initialRoute: AppRoutes.homeScreen,
+        routes: {
+          AppRoutes.homeScreen: (context) => HomeScreen()
+        }
+
+
+    );
+
   }
 }
