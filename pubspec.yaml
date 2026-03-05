@@ -30,22 +30,44 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-
   cupertino_icons: ^1.0.8
   awesome_dialog: ^3.2.1
   rive_common: ^0.4.15
-  http: ^1.5.0
+  http: ^1.6.0
   drop_down_list: ^2.0.0
+
+  # --- ❗ إصلاح التعارض بين geolocator و package_info_plus ❗ ---
+  # geolocator 14.x يتطلب package_info_plus ^8.0.0
+  # لكنك استخدمت package_info_plus 9.x → فعمل Conflict
+  # لذلك رفعنا geolocator إلى آخر إصدار متوافق مع 9.x
   geolocator: ^14.0.2
-  firebase_core: ^4.1.0
-  cloud_firestore: ^6.0.1
+  package_info_plus: ^8.0.0
+  # -------------------------------------------------------------
+
   firebase_storage: ^13.0.1
   firebase_messaging: ^16.0.1
-  firebase_auth: ^6.0.2
   google_sign_in: ^7.2.0
   flutter_native_splash: ^2.4.7
+  introduction_screen: ^4.0.0
+  shared_preferences: ^2.5.3
+  carousel_slider: ^5.1.1
+  provider: ^6.1.5+1
+  animated_bottom_navigation_bar: ^1.4.0
+  curved_navigation_bar: ^1.0.6
+  icons_plus: ^5.0.0
+  firebase_core: ^4.2.1
+  cloud_firestore: ^6.1.0
+  firebase_auth: ^6.1.2
+  lottie: ^3.3.2
+  flutter_facebook_auth: ^6.0.4
+  camera: ^0.11.3
+  permission_handler: ^12.0.1
+  wakelock_plus: ^1.3.3
 
 dev_dependencies:
   flutter_launcher_icons: ^0.14.4
@@ -69,6 +91,7 @@ flutter_launcher_icons:
 
 # The following section is specific to Flutter packages.
 flutter:
+  generate: true # Add this line
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -89,8 +112,8 @@ flutter:
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
+  # list giving the asset and other descriptors for the font.
+  # Example commented below:
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -102,6 +125,3 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package

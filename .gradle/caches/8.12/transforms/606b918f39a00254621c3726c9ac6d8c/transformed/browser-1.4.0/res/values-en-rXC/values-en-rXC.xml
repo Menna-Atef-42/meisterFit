@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="copy_toast_msg" msgid="3260749812566568062">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‎‏‎‏‎‎‎‎‎‎‏‎‎‎‎‎‏‎‏‎‏‎‏‏‎‏‏‎‏‎‎‏‏‏‎‏‏‏‎‎‏‏‏‎‏‎‏‏‎‎‎‏‏‏‏‏‏‎‎Link copied to clipboard‎‏‎‎‏‎"</string>
-    <string name="fallback_menu_item_copy_link" msgid="4566929209979330987">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‏‏‏‏‎‏‏‎‎‎‎‎‏‏‏‏‏‏‎‏‏‏‏‎‏‎‏‏‎‏‏‏‏‎‏‏‎‎‏‎‏‏‎‎‎‏‏‎‎‎‎‏‏‎‏‎‏‎‏‏‎Copy link‎‏‎‎‏‎"</string>
-    <string name="fallback_menu_item_open_in_browser" msgid="3413186855122069269">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‏‏‏‏‎‎‎‎‏‎‎‏‏‎‏‎‏‏‏‎‎‎‏‏‎‎‎‏‏‏‎‎‏‎‏‎‏‎‏‏‎‎‏‏‏‎‎‎‏‎‏‎‏‎Open in browser‎‏‎‎‏‎"</string>
-    <string name="fallback_menu_item_share_link" msgid="7145444925855055364">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‎‎‏‏‎‎‏‎‏‎‎‏‏‎‏‏‏‎‎‎‎‏‎‎‏‏‎‏‎‏‎‎‎‏‏‏‏‎‏‏‎‏‎‏‎‎‏‏‏‏‏‎‎‎‎‎‎‏‎‎‎Share link‎‏‎‎‏‎"</string>
-</resources>
